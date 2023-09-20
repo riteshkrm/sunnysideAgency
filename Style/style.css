@@ -35,10 +35,11 @@ ul{
 }
 
 header{
-    height: 120vh;
+    height: 45rem;
     background: url(../Asset/desktop/image-header.jpg);
     background-size: cover;
-    margin-bottom: 2rem;
+    background-repeat: no-repeat;
+    /* margin-bottom: 2rem; */
 }
 
 .divHamburger{
@@ -79,4 +80,33 @@ header{
 .contactBtn:hover{
     background: var(--White);
     opacity: 0.8;
+}
+
+.weAre{
+    color: var(--White);
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding: 3rem 0;
+}
+
+.headingArrow{
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+.downArrow{
+    padding-top: 5rem;
+}
+
+.heroSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rightSideHero{
+    background: url(../Asset/desktop/image-stand-out.jpg);
 }
