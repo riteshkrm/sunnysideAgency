@@ -5,11 +5,78 @@
     --Darkdesaturatedcyan: #25564b; /*(graphic design text)*/
     --Darkblue: #19536b; /*(photography text)*/
     --Darkmoderatecyan: #458c7e;   /*(footer)*/
-    
+
     /* Neutral */
     --Verydarkdesaturatedblue: #23303e;
     --Verydarkgrayishblue: #5a636c;
     --Darkgrayishblue: #818498;
     --Grayishblue: #a7abae;
     --White: #ffffff;
+}
+
+/* Reset Css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 4rem;
+}
+
+header{
+    height: 120vh;
+    background: url(../Asset/desktop/image-header.jpg);
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.divHamburger{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+
+.logo{
+    width: 150px;
+}
+
+.navbar a{
+    color: var(--White);
+}
+
+.contactBtn{
+    border: none;
+    background: var(--White);
+    color: var(--Darkblue);
+    cursor: pointer;
+    /* font-size: 1.125rem; */
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+
+.contactBtn:hover{
+    background: var(--White);
+    opacity: 0.8;
 }
