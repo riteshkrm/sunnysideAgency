@@ -4,7 +4,7 @@
     --Yellow: #fad400;
     --Darkdesaturatedcyan: #25564b; /*(graphic design text)*/
     --Darkblue: #19536b; /*(photography text)*/
-    --Darkmoderatecyan: #458c7e;   /*(footer)*/
+    --Darkmoderatecyan: #83d2c1;   /*(footer)*/
 
     /* Neutral */
     --Verydarkdesaturatedblue: #23303e;
@@ -102,11 +102,116 @@ header{
     padding-top: 5rem;
 }
 
-.heroSection{
+.heroSection,
+.secondSection,
+.thirdSection{
+    height: 30rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.rightSideHero{
-    background: url(../Asset/desktop/image-stand-out.jpg);
+.rightSideHero img{
+    width: 100%;
+    height: 30rem;
+}
+
+.leftSideSecond img{
+    width: 100%;
+    height: 30rem;
+}
+
+.leftSidethird{
+    background: url(../Asset/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.rightSidethird{
+    background: url(../Asset/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+}
+
+.thirdSection{
+    height: 37rem;
+}
+
+.fourthSection{
+    padding: 7rem 8rem;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+.fourthSection h1{
+    color: var(--Verydarkgrayishblue);
+    font-size: 1.25rem;
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.boxFourth{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5rem;
+    text-align: center;
+    gap: 2rem;
+}
+
+.boxImg{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.discriptionFourth{
+    padding: 3rem 0;
+}
+
+.discriptionFourth p{
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    color: var(--Verydarkgrayishblue); 
+}
+
+.nameJob p:nth-of-type(1){
+    padding-bottom: 1rem;
+    font-size: 1.25rem;
+    font-family: 'Fraunces', serif;
+    text-transform: capitalize;
+    color: var(--Verydarkdesaturatedblue);
+}
+
+.nameJob p:nth-of-type(2){
+    color: var(--Grayishblue);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    color: var(--Verydarkgrayishblue); 
+}
+
+.fifthSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.fifthSection img{
+    width: 100%;
+}
+
+footer{
+    height: 20rem;
+    background-color: var(--Darkmoderatecyan);
+    /* display: grid;
+    place-items: center;
+    place-content: center; */
+    text-align: center;
+}
+
+.footerLogo{
+    padding-top: 4rem;
+    width: 200px;
+}
+
+.footerInner{
 }

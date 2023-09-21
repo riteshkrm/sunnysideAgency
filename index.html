@@ -1,86 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./Asset/favicon-32x32.png"
-    />
-    <!-- link google font cdn -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- link css file -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./Style/style.css" />
-    <title>Frontend Mentor | Sunnyside agency landing page</title>
-  </head>
-  <body>
-    <main>
-      <header>
-        <nav class="navbar">
-          <!-- navbar logo -->
-          <div>
-            <a href="#"><img class="logo" src="./Asset/logo.svg" alt="" /></a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./Asset/favicon-32x32.png" />
+  <!-- link google font cdn -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet" />
+  <!-- link css file -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./Style/style.css" />
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <nav class="navbar">
+        <!-- navbar logo -->
+        <div>
+          <a href="#"><img class="logo" src="./Asset/logo.svg" alt="" /></a>
+        </div>
+
+        <div>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><button class="contactBtn" type="button">Contact</button></li>
+          </ul>
+        </div>
+
+        <div class="divHamburger">
+          <img class="hamburger" src="./Asset/icon-hamburger.svg" alt="" />
+        </div>
+      </nav>
+      <div class="headingArrow">
+        <h1 class="weAre">we are creatives</h1>
+        <img class="downArrow" src="./Asset/icon-arrow-down.svg" alt="" />
+      </div>
+    </header>
+
+    <section class="heroSection">
+      <!-- Left side -->
+      <div class="leftSideHero"></div>
+
+      <!-- Right side -->
+      <div class="rightSideHero">
+        <img src="./Asset/desktop/image-transform.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- second section has two side -->
+    <section class="secondSection">
+      <!-- Left side -->
+      <div class="leftSideSecond">
+        <img src="./Asset/desktop/image-stand-out.jpg" alt="" />
+      </div>
+
+      <!-- Right side -->
+      <div class="rightSideSecond"></div>
+    </section>
+
+    <!-- third section has two side -->
+    <section class="thirdSection">
+      <!-- Left side -->
+      <div class="leftSidethird"></div>
+
+      <!-- Right side -->
+      <div class="rightSidethird"></div>
+    </section>
+
+    <!-- fourth section has three box -->
+    <section class="fourthSection">
+      <h1>Client testimonials</h1>
+
+      <div class="boxFourth">
+        <!-- first box -->
+        <div class="firstBoxfourth">
+          <img class="boxImg" src="./Asset/image-emily.jpg" alt="" />
+
+          <div class="discriptionFourth">
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure
+              our needs were met and deadlines were always hit.
+            </p>
+          </div>
+          <div class="nameJob">
+            <p>Emily R.</p>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+
+
+        <!-- second box -->
+        <div class="secondBoxfourth">
+          <img class="boxImg" src="./Asset/image-thomas.jpg" alt="" />
+
+          <div class="discriptionFourth">
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+              enjoyable experience.
+            </p>
           </div>
 
-          <div>
-            <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><button class="contactBtn" type="button">Contact</button></li>
-            </ul>
+          <div class="nameJob">
+            <p>Thomas S.</p>
+            <p>Chief Operating Officer</p>
           </div>
 
-          <div class="divHamburger">
-            <img class="hamburger" src="./Asset/icon-hamburger.svg" alt="" />
+        </div>
+
+        <!-- third box -->
+        <div class="thirdBoxfourth">
+          <img class="boxImg" src="./Asset/image-jennie.jpg" alt="" />
+
+          <div class="discriptionFourth">
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
           </div>
-        </nav>
-        <div class="headingArrow">
-          <h1 class="weAre">we are creatives</h1>
-          <img class="downArrow" src="./Asset/icon-arrow-down.svg" alt="" />
+
+          <div class="nameJob">
+            <p>Jennie F.</p>
+            <p>Business Owner</p>
+          </div>
         </div>
-      </header>
+      </div>
+    </section>
 
-      <!-- hero section has two side -->
-      <section class="heroSection">
-        <!-- Left side -->
-        <div class="leftSideHero">
+    <!-- fifth section has four box -->
+    <section class="fifthSection">
+      <img src="./Asset/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img src="./Asset/desktop/image-gallery-orange.jpg" alt="">
+      <img src="./Asset/desktop/image-gallery-cone.jpg" alt="">
+      <img src="./Asset/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </section>
 
-        </div>
+    <footer>
+      <div class="footerInner">
+        <img class="footerLogo" src="./Asset/logo.svg" alt="">
 
-        <!-- Right side -->
-        <div class="rightSideHero">
-            <!-- <img src="./Asset/desktop/image-transform.jpg" alt=""> -->
-        </div>
-      </section>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
 
-       <!-- second section has two side -->
-      <section class="heroSection">
-        <!-- Left side -->
-        <div class="leftSideHero">
-            <!-- <img src="./Asset/desktop/image-stand-out.jpg" alt=""> -->
-        </div>
+        <ul>
+          <li><a href="#"><img src="./Asset/icon-facebook.svg" alt=""></a></li>
+          <li><a href="#"><img src="./Asset/icon-instagram.svg" alt=""></a></li>
+          <li><a href="#"><img src="./Asset/icon-twitter.svg" alt=""></a></li>
+          <li><a href="#"><img src="./Asset/icon-pinterest.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </footer>
 
-        <!-- Right side -->
-        <div class="rightSideHero">
-            
-        </div>
-      </section>
-    </main>
+  </main>
 
-    <script src="./Script/script.js"></script>
-  </body>
+  <script src="./Script/script.js"></script>
+</body>
+
 </html>
