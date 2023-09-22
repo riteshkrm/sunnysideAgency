@@ -359,3 +359,11 @@ footer{
     color: var(--White);
 }
 
+.hr{
+    margin: 2rem 0;
+    border: 1px solid var(--Darkdesaturatedcyan);
+}
+
+.copyRight, a{
+    color: #25564b;
+}
