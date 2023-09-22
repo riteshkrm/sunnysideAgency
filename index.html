@@ -1,202 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Asset/favicon-32x32.png"
+    />
+    <!-- link google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- link css file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Style/style.css" />
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./Asset/favicon-32x32.png" />
-  <!-- link google font cdn -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet" />
-  <!-- link css file -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./Style/style.css" />
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
-</head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar">
+          <!-- navbar logo -->
+          <div>
+            <a href="#"><img class="logo" src="./Asset/logo.svg" alt="" /></a>
+          </div>
 
-<body>
-  <main>
-    <header>
-      <nav class="navbar">
-        <!-- navbar logo -->
-        <div>
-          <a href="#"><img class="logo" src="./Asset/logo.svg" alt="" /></a>
+          <div>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><button class="contactBtn" type="button">Contact</button></li>
+            </ul>
+          </div>
+
+          <div class="divHamburger">
+            <img class="hamburger" src="./Asset/icon-hamburger.svg" alt="" />
+          </div>
+        </nav>
+        <div class="headingArrow">
+          <h1 class="weAre">we are creatives</h1>
+          <img class="downArrow" src="./Asset/icon-arrow-down.svg" alt="" />
+        </div>
+      </header>
+
+      <section class="heroSection">
+        <!-- Left side -->
+        <div class="leftSideHero">
+          <div class="leftInnerHero">
+            <h1>
+              Transform your <br />
+              brand
+            </h1>
+
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+
+            <a href="#">Learn more</a>
+          </div>
         </div>
 
-        <div>
+        <!-- Right side -->
+        <div class="rightSideHero">
+          <img src="./Asset/desktop/image-transform.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- second section has two side -->
+      <section class="secondSection">
+        <!-- Left side -->
+        <div class="leftSideSecond">
+          <img src="./Asset/desktop/image-stand-out.jpg" alt="" />
+        </div>
+
+        <!-- Right side -->
+        <div class="rightSideSecond">
+          <div class="rightInnerSecond">
+            <h1>
+              Stand out to the right <br />
+              audience
+            </h1>
+
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- third section has two side -->
+      <section class="thirdSection">
+        <!-- Left side -->
+        <div class="leftSideThird">
+          <div class="leftInnerThird">
+            <h1>Graphic design</h1>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right side -->
+        <div class="rightSideThird">
+          <div class="rightInnerThird">
+            <h1>Photography</h1>
+            <p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- fourth section has three box -->
+      <section class="fourthSection">
+        <h1>Client testimonials</h1>
+
+        <div class="boxFourth">
+          <!-- first box -->
+          <div class="firstBoxfourth">
+            <img class="boxImg" src="./Asset/image-emily.jpg" alt="" />
+
+            <div class="discriptionFourth">
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+            </div>
+            <div class="nameJob">
+              <p>Emily R.</p>
+              <p>Marketing Director</p>
+            </div>
+          </div>
+
+          <!-- second box -->
+          <div class="secondBoxfourth">
+            <img class="boxImg" src="./Asset/image-thomas.jpg" alt="" />
+
+            <div class="discriptionFourth">
+              <p>
+                Sunnyside’s enthusiasm coupled with their keen interest in our
+                brand’s success made it a satisfying and enjoyable experience.
+              </p>
+            </div>
+
+            <div class="nameJob">
+              <p>Thomas S.</p>
+              <p>Chief Operating Officer</p>
+            </div>
+          </div>
+
+          <!-- third box -->
+          <div class="thirdBoxfourth">
+            <img class="boxImg" src="./Asset/image-jennie.jpg" alt="" />
+
+            <div class="discriptionFourth">
+              <p>
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+            </div>
+
+            <div class="nameJob">
+              <p>Jennie F.</p>
+              <p>Business Owner</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- fifth section has four box -->
+      <section class="fifthSection">
+        <img src="./Asset/desktop/image-gallery-milkbottles.jpg" alt="" />
+        <img src="./Asset/desktop/image-gallery-orange.jpg" alt="" />
+        <img src="./Asset/desktop/image-gallery-cone.jpg" alt="" />
+        <img src="./Asset/desktop/image-gallery-sugarcubes.jpg" alt="" />
+      </section>
+
+      <footer>
+        <div class="footerInner">
+          <img class="footerLogo" src="./Asset/logo.svg" alt="" />
+
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><button class="contactBtn" type="button">Contact</button></li>
+            <li><a class="a" href="#">About</a></li>
+            <li><a class="a" href="#">Services</a></li>
+            <li><a class="a" href="#">Projects</a></li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#"><img src="./Asset/icon-facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./Asset/icon-instagram.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./Asset/icon-twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./Asset/icon-pinterest.svg" alt="" /></a>
+            </li>
           </ul>
         </div>
+      </footer>
+    </main>
 
-        <div class="divHamburger">
-          <img class="hamburger" src="./Asset/icon-hamburger.svg" alt="" />
-        </div>
-      </nav>
-      <div class="headingArrow">
-        <h1 class="weAre">we are creatives</h1>
-        <img class="downArrow" src="./Asset/icon-arrow-down.svg" alt="" />
-      </div>
-    </header>
-
-    <section class="heroSection">
-      <!-- Left side -->
-      <div class="leftSideHero">
-        <div class="leftInnerHero">
-
-          <h1>Transform your <br> brand</h1>
-
-          <p>We are a full-service creative agency specializing in helping brands grow fast.
-            Engage your clients through compelling visuals that do most of the marketing for you.</p>
-
-          <a href="#">Learn more</a>
-        </div>
-      </div>
-
-      <!-- Right side -->
-      <div class="rightSideHero">
-        <img src="./Asset/desktop/image-transform.jpg" alt="" />
-      </div>
-    </section>
-
-    <!-- second section has two side -->
-    <section class="secondSection">
-      <!-- Left side -->
-      <div class="leftSideSecond">
-        <img src="./Asset/desktop/image-stand-out.jpg" alt="" />
-      </div>
-
-      <!-- Right side -->
-      <div class="rightSideSecond">
-
-        <div class="rightInnerSecond">
-          <h1>Stand out to the right <br> audience</h1>
-
-          <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
-            we’ll build and extend your brand in digital places. </p>
-
-          <a href="#">Learn more</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- third section has two side -->
-    <section class="thirdSection">
-      <!-- Left side -->
-      <div class="leftSidethird">
-        <div>
-          <h1>Graphic design</h1>
-          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures
-            potential clients’ attention.</p>
-        </div>
-      </div>
-
-      <!-- Right side -->
-      <div class="rightSidethird">
-        <div>
-          <h1>Photography</h1>
-          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business
-            image.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- fourth section has three box -->
-    <section class="fourthSection">
-      <h1>Client testimonials</h1>
-
-      <div class="boxFourth">
-        <!-- first box -->
-        <div class="firstBoxfourth">
-          <img class="boxImg" src="./Asset/image-emily.jpg" alt="" />
-
-          <div class="discriptionFourth">
-            <p>
-              We put our trust in Sunnyside and they delivered, making sure
-              our needs were met and deadlines were always hit.
-            </p>
-          </div>
-          <div class="nameJob">
-            <p>Emily R.</p>
-            <p>Marketing Director</p>
-          </div>
-        </div>
-
-
-        <!-- second box -->
-        <div class="secondBoxfourth">
-          <img class="boxImg" src="./Asset/image-thomas.jpg" alt="" />
-
-          <div class="discriptionFourth">
-            <p>
-              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
-              enjoyable experience.
-            </p>
-          </div>
-
-          <div class="nameJob">
-            <p>Thomas S.</p>
-            <p>Chief Operating Officer</p>
-          </div>
-
-        </div>
-
-        <!-- third box -->
-        <div class="thirdBoxfourth">
-          <img class="boxImg" src="./Asset/image-jennie.jpg" alt="" />
-
-          <div class="discriptionFourth">
-            <p>
-              Incredible end result! Our sales increased over 400% when we
-              worked with Sunnyside. Highly recommended!
-            </p>
-          </div>
-
-          <div class="nameJob">
-            <p>Jennie F.</p>
-            <p>Business Owner</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- fifth section has four box -->
-    <section class="fifthSection">
-      <img src="./Asset/desktop/image-gallery-milkbottles.jpg" alt="">
-      <img src="./Asset/desktop/image-gallery-orange.jpg" alt="">
-      <img src="./Asset/desktop/image-gallery-cone.jpg" alt="">
-      <img src="./Asset/desktop/image-gallery-sugarcubes.jpg" alt="">
-    </section>
-
-    <footer>
-      <div class="footerInner">
-        <img class="footerLogo" src="./Asset/logo.svg" alt="">
-
-        <ul>
-          <li><a class="a" href="#">About</a></li>
-          <li><a class="a" href="#">Services</a></li>
-          <li><a class="a" href="#">Projects</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="#"><img src="./Asset/icon-facebook.svg" alt=""></a></li>
-          <li><a href="#"><img src="./Asset/icon-instagram.svg" alt=""></a></li>
-          <li><a href="#"><img src="./Asset/icon-twitter.svg" alt=""></a></li>
-          <li><a href="#"><img src="./Asset/icon-pinterest.svg" alt=""></a></li>
-        </ul>
-      </div>
-    </footer>
-
-  </main>
-
-  <script src="./Script/script.js"></script>
-</body>
-
+    <script src="./Script/script.js"></script>
+  </body>
 </html>

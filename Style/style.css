@@ -110,29 +110,152 @@ header{
     grid-template-columns: 1fr 1fr;
 }
 
+
 .rightSideHero img{
     width: 100%;
     height: 30rem;
 }
+
+.leftSideHero{
+    padding-left: 10rem;
+    padding-top: 7rem;
+}
+
+.leftInnerHero h1{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    padding-bottom: 2rem;
+}
+
+.leftInnerHero p{
+    width: 90%;
+    color: var(--Grayishblue);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    color: var(--Verydarkgrayishblue);
+    padding-bottom: 2rem;
+}
+
+.leftInnerHero a{
+    font-size: 1.25rem;
+    font-family: 'Fraunces', serif;
+    text-transform: capitalize;
+    color: var(--Verydarkdesaturatedblue);
+}
+
+.leftInnerHero a:hover{
+    text-decoration: underline;
+}
+
+.rightSideSecond{
+    padding-left: 6rem;
+    padding-top: 7rem;
+}
+
+.rightInnerSecond h1{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    padding-bottom: 2rem;
+}
+
+.rightInnerSecond p{
+    width: 80%;
+    color: var(--Grayishblue);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    color: var(--Verydarkgrayishblue);
+    padding-bottom: 2rem;
+}
+
+.rightInnerSecond a{
+    font-size: 1.25rem;
+    font-family: 'Fraunces', serif;
+    text-transform: capitalize;
+    color: var(--Verydarkdesaturatedblue);
+}
+
+.rightInnerSecond a:hover{
+    text-decoration: underline;
+}
+
 
 .leftSideSecond img{
     width: 100%;
     height: 30rem;
 }
 
-.leftSidethird{
+.leftSideThird{
     background: url(../Asset/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
 
 }
 
-.rightSidethird{
+.rightSideThird{
     background: url(../Asset/desktop/image-photography.jpg);
     background-repeat: no-repeat;
 }
 
 .thirdSection{
     height: 37rem;
+}
+
+.leftInnerThird{
+    height: 37rem;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    padding-top: 15rem;
+}
+
+.rightInnerThird{
+    height: 37rem;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    padding-top: 15rem;
+}
+
+.rightInnerThird h1{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Fraunces', serif;
+    text-transform: capitalize;
+    color: var(--Darkblue);
+}
+
+.leftInnerThird h1{
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: 'Fraunces', serif;
+    color: var(--Darkdesaturatedcyan);
+}
+
+.leftInnerThird p{
+    width: 60%;
+    color: var(--Grayishblue);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    color: var(--Darkdesaturatedcyan);
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+.rightInnerThird p{
+    width: 60%;
+    color: var(--Grayishblue);
+    font-size: 1.125rem;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    color: var(--Darkblue);
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 .fourthSection{
@@ -236,68 +359,3 @@ footer{
     color: var(--White);
 }
 
-.leftSideHero{
-    padding-left: 10rem;
-    padding-top: 7rem;
-}
-
-.leftInnerHero h1{
-    font-size: 2rem;
-    font-weight: 900;
-    font-family: 'Fraunces', serif;
-    padding-bottom: 2rem;
-}
-
-.leftInnerHero p{
-    width: 90%;
-    color: var(--Grayishblue);
-    font-size: 1.125rem;
-    font-weight: 600;
-    font-family: 'Barlow', sans-serif;
-    color: var(--Verydarkgrayishblue);
-    padding-bottom: 2rem;
-}
-
-.rightSideSecond{
-    padding-left: 6rem;
-    padding-top: 7rem;
-}
-
-.rightInnerSecond h1{
-    font-size: 2rem;
-    font-weight: 900;
-    font-family: 'Fraunces', serif;
-    padding-bottom: 2rem;
-}
-
-.rightInnerSecond p{
-    width: 80%;
-    color: var(--Grayishblue);
-    font-size: 1.125rem;
-    font-weight: 600;
-    font-family: 'Barlow', sans-serif;
-    color: var(--Verydarkgrayishblue);
-    padding-bottom: 2rem;
-}
-
-.rightInnerSecond a{
-    font-size: 1.25rem;
-    font-family: 'Fraunces', serif;
-    text-transform: capitalize;
-    color: var(--Verydarkdesaturatedblue);
-}
-
-.leftInnerHero a{
-    font-size: 1.25rem;
-    font-family: 'Fraunces', serif;
-    text-transform: capitalize;
-    color: var(--Verydarkdesaturatedblue);
-}
-
-.leftInnerHero a:hover{
-    text-decoration: underline;
-}
-
-.rightInnerSecond a:hover{
-    text-decoration: underline;
-}
